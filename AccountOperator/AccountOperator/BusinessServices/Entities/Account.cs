@@ -7,11 +7,29 @@ public class Account
     public Guid Uid;
     public decimal Balance;
     public string OwnerName;
+    public List<StatementEntry> Statement;
 
-    public decimal Deposit(decimal amount)
+    public Account(int balance, string ownerName)
+    {
+        Uid = new Guid();
+        Balance = balance;
+        ownerName = ownerName;
+    }
+
+    public void Deposit(decimal amount)
     {
         var depositNetAmount = amount * (decimal) DepositFee;
         Balance += depositNetAmount;
-        return Balance;
+    }
+
+    public void Transfer(int amount, Account destination)
+    {
+        Balance -= amount;
+        destination.Balance += amount;
+    }
+    
+    public void Withdrawn(int amount)
+    {
+        Balance -= amount;
     }
 }

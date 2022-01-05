@@ -1,6 +1,6 @@
 namespace AccountOperator.BusinessServices.Entities;
 
-public class AccountStatement
+public class StatementEntry
 {
     
 }

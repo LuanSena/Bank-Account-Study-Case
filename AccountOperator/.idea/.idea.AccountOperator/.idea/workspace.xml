@@ -5,21 +5,11 @@
     <projectFile profileName="IIS Express">AccountOperator/AccountOperator.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3dfe801-3d34-4972-961c-d782f826d93f" name="Changes" comment="Add account base folders">
-      <change afterPath="$PROJECT_DIR$/AccountOperatorTests/AccountUseCases.cs" afterDir="false" />
+    <list default="true" id="f3dfe801-3d34-4972-961c-d782f826d93f" name="Changes" comment="Add test project references">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountOperator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountOperator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountOperator/BusinessServices/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/BusinessServices/Entities/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperator/obj/Debug/net6.0/AccountOperator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/obj/Debug/net6.0/AccountOperator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/AccountOperatorTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/AccountOperatorTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/UnitTest1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/Debug/net6.0/AccountOperatorTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/Debug/net6.0/AccountOperatorTests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/AccountUseCases.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/AccountUseCases.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/Debug/net6.0/AccountOperatorTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/Debug/net6.0/AccountOperatorTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountOperatorTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperatorTests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AccountOperatorTests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Luan/workspace/Bank-Account-Study-Case/AccountOperator/AccountOperator/BusinessServices/Entities/Account.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641340007699</updated>
-      <workItem from="1641340020572" duration="4058000" />
+      <workItem from="1641340020572" duration="7234000" />
     </task>
     <task id="LOCAL-00001" summary="Add base dotnet web api project">
       <created>1641340102267</created>
@@ -108,7 +99,35 @@
       <option name="project" value="LOCAL" />
       <updated>1641341372666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add account deposit fee test">
+      <created>1641391794440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391794440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add account properties and deposit method">
+      <created>1641391936889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391936889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add tests project">
+      <created>1641391966429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391966429</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add test project references">
+      <created>1641391986077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391986077</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,8 +150,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add base dotnet web api project" />
-    <MESSAGE value="Add tests project" />
     <MESSAGE value="Add account base folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add account base folders" />
+    <MESSAGE value="Add account deposit fee test" />
+    <MESSAGE value="Add account properties and deposit method" />
+    <MESSAGE value="Add tests project" />
+    <MESSAGE value="Add test project references" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test project references" />
   </component>
 </project>
