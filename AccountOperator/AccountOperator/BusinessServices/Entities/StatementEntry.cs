@@ -9,8 +9,8 @@ public class StatementEntry
 
     public StatementEntry(Guid accountUid, decimal amount, string operationType)
     {
-        AccountUid = AccountUid;
-        amount = amount;
+        AccountUid = accountUid;
+        Amount = amount;
         OperationType = operationType;
         OperationTime = DateTime.Now;
     }

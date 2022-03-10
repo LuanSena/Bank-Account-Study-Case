@@ -10,7 +10,7 @@ public class AccountUseCases
     public void Account_deposit_should_discount_fee()
     {
         var account = new Account(0, "tester");
-        account.Deposit(100);
+        account.Deposit(100, "Initial deposit");
         Assert.Equal(99, account.Balance);
     }
 
@@ -18,20 +18,20 @@ public class AccountUseCases
     public void Account_blank_deposit_should_not_Apply_discount_fee()
     {
         var account = new Account(100, "tester");
-        account.Deposit(0);
+        account.Deposit(0, "Blank deposit");
         Assert.Equal(100, account.Balance);
     }
     
     [Fact]
     public void Account_amount_transfer_should_move_amounts_between_accounts()
     {
-        var accountOne = new Account(10, "TesterA");
-        var accountTwo = new Account(0, "TesterB");
+        var accountSource = new Account(10, "TesterA");
+        var accountDestination = new Account(0, "TesterB");
         
-        accountOne.Transfer(10, accountTwo);
+        accountSource.Transfer(10, accountDestination);
         
-        Assert.Equal(0, accountOne.Balance);
-        Assert.Equal(10, accountTwo.Balance);
+        Assert.Equal(0, accountSource.Balance);
+        Assert.Equal(10, accountDestination.Balance);
     }
     
     [Fact]

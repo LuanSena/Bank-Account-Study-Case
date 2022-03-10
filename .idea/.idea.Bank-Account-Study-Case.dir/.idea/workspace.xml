@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ded07dfe-02fc-405b-b349-e1d0fe67176b" name="Changes" comment="" />
+    <list default="true" id="ded07dfe-02fc-405b-b349-e1d0fe67176b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AccountOperator/.idea/.idea.AccountOperator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/.idea/.idea.AccountOperator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperator/AccountOperator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperator/AccountOperator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/AccountOperator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/AccountOperator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/AccountOperator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/AccountOperator.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/AccountOperatorTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/AccountOperatorTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/AccountOperatorTests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountOperator/AccountOperatorTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AccountOperator/AccountOperator/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AccountOperator/AccountOperatorTests/AccountUseCases.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AccountOperator/AccountOperator/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641339864331</updated>
       <workItem from="1641339866927" duration="139000" />
+      <workItem from="1646096440242" duration="156000" />
     </task>
     <servers />
   </component>
@@ -39,7 +56,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
